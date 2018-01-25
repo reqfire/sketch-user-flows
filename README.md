@@ -29,5 +29,9 @@ Choose the Userflows->Export option from the plugin menu in Sketch.
 
 You will be prompted for two inputs to run the Export.  The first is the External Link (see above), and the second input is the 'API Secret Key' for your Reqfire project.  It is available on the same page as the External Link, but you will have to click the link to generate the key if you haven't done that already. https://www.reqfire.com/app/project
 
+## Feedback, Questions, etc.
+
+Please create an issue or email us at userflows@reqfire.com
+
 
 
