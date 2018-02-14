@@ -12,7 +12,7 @@ Subsequent import operations to the same Sketch project will not overwrite exist
 
 ## Installing
 
-You can download our plugin from   [sketch-user-flows](https://github.com/reqfire/sketch-user-flows/blob/master/userflow_reqfire.sketchplugin.zip)
+You can download our plugin from   [sketch-user-flows](https://github.com/reqfire/sketch-user-flows/archive/master.zip)
 
 Add it to Sketch using the normal process. If this is your first plugin, congratulations, the documentation to better understand how Sketch plugins work is [here](https://www.sketchapp.com/docs/plugins/).
 
@@ -20,7 +20,7 @@ Add it to Sketch using the normal process. If this is your first plugin, congrat
 
 1. Login / Create a Reqfire account
    - Ensure you have a project setup with your project’s structure in place.
-2. [Download](https://github.com/reqfire/sketch-user-flows/blob/master/userflow_reqfire.sketchplugin.zip) the plugin
+2. [Download](https://github.com/reqfire/sketch-user-flows/archive/master.zip) the plugin
 3. Obtain your Project Key from the project details page
    - <https://www.reqfire.com/app/project>
 4. Open Sketch
