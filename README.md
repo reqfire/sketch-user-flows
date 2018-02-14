@@ -21,8 +21,8 @@ Add it to Sketch using the normal process. If this is your first plugin, congrat
 1. Login / Create a Reqfire account
    - Ensure you have a project setup with your project’s structure in place.
 2. [Download](https://github.com/reqfire/sketch-user-flows/archive/master.zip) the plugin
-3. Obtain your Project Key from the project details page
-   - <https://www.reqfire.com/app/project>
+3. Obtain your API Key from the export page
+   - <https://www.reqfire.com/app/export/sketch>
 4. Open Sketch
    - ‘User Flows by Reqfire’ → ‘Import Reqfire project’
    - Input the Project Key when prompted
