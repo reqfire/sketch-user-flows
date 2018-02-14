@@ -2,9 +2,9 @@
 
 ## Overview
 
-A Sketch plug-in for importing/exporting user flows and interfaces from Reqfire.
+Communicate your designs with User Flows: auto-generate User Flows and keep your designs in sync with your Reqfire project.
 
-User Flows allows the importing of interfaces from Reqfire into a Sketch project, along with the defined Reqfire user flows.
+Sketch User Flows allows the importing of interfaces from Reqfire into a Sketch project, along with the defined Reqfire user flows.
 
 Interfaces can be designed in Sketch and then exported back to Reqfire as .png files to be included in the Reqfire project.
 
@@ -14,7 +14,7 @@ Subsequent import operations to the same Sketch project will not overwrite exist
 
 You can download our plugin from   [sketch-user-flows](https://github.com/reqfire/sketch-user-flows/userflow_reqfire.sketchplugin.zip)
 
-Add it to Sketch using the normal process. If this is your first plug-in, congratulations, the documentation to better understand how Sketch plugins work is [here](https://www.sketchapp.com/docs/plugins/).
+Add it to Sketch using the normal process. If this is your first plugin, congratulations, the documentation to better understand how Sketch plugins work is [here](https://www.sketchapp.com/docs/plugins/).
 
 ## Reqfire -> Sketch (Importing)
 
@@ -32,7 +32,7 @@ Add it to Sketch using the normal process. If this is your first plug-in, congra
 
 All designs are to be done in the Symbols automatically generated. This will help handle interfaces that are used in multiple ways in your app.
 
-The User Flows page only gives a grand overview of how your app fits into place—assuming you’ve set up your user flows in Reqfire. If you haven’t done this, we highly recommend doing so before using the Sketch plugin.
+The Sketch User Flows page only gives a grand overview of how your app fits into place—assuming you’ve set up your user flows in Reqfire. If you haven’t done this, we highly recommend doing so before using the Sketch plugin.
 
 ## Sketch -> Reqfire (Exporting)
 
@@ -47,4 +47,4 @@ The User Flows page only gives a grand overview of how your app fits into place�
 
 ## Feedback, Questions, etc.
 
-Please create an issue or email us at [userflows@reqfire.com](mailto:userflows@reqfire.com)
+Please create an issue or email us at [sketchuserflows@reqfire.com](mailto:sketchuserflows@reqfire.com)
