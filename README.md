@@ -20,7 +20,7 @@ Add it to Sketch using the normal process. If this is your first plug-in, congra
 
 1. Login / Create a Reqfire account
    - Ensure you have a project setup with your project’s structure in place.
-2. [Download](https://github.com/billsonfisher/sketch-alpha/archive/master.zip) the plugin
+2. Download the plugin
 3. Obtain your Project Key from the project details page
    - <https://www.reqfire.com/app/project>
 4. Open Sketch
