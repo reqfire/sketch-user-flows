@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="342" height="127" viewBox="0 0 342 127">
+  <defs>
+    <rect id="download-plugin-button-b" width="230" height="63" rx="8"/>
+    <filter id="download-plugin-button-a" width="113%" height="147.6%" x="-6.5%" y="-19%" filterUnits="objectBoundingBox">
+      <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+      <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.258823529   0 0 0 0 0.258823529   0 0 0 0 0.258823529  0 0 0 0.32 0"/>
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur in="shadowOffsetOuter2" result="shadowBlurOuter2" stdDeviation="1"/>
+      <feColorMatrix in="shadowBlurOuter2" result="shadowMatrixOuter2" values="0 0 0 0 0.258823529   0 0 0 0 0.258823529   0 0 0 0 0.258823529  0 0 0 0.4 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(56 32)">
+    <use fill="#000" filter="url(#download-plugin-button-a)" xlink:href="#download-plugin-button-b"/>
+    <use fill="#6F70CF" xlink:href="#download-plugin-button-b"/>
+    <text fill="#FFF" font-family="SourceSansPro-Semibold, Source Sans Pro" font-size="24" font-weight="500" letter-spacing="-.74">
+      <tspan x="32.136" y="40">Download Plugi</tspan> <tspan x="184.424" y="40">n</tspan>
+    </text>
+  </g>
+</svg>
