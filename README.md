@@ -1,6 +1,6 @@
 # Sketch User Flows
 <a href="https://github.com/reqfire/sketch-user-flows/archive/master.zip">
-  <img src="./images/Sketch-User-Flows-Logo-Button.svg" alt="Download Sketch User Flows: auto-generate User Flows and keep your designs in sync with your Reqfire project"/>
+  <img src="./images/Sketch-User-Flows-Logo-Button.png" alt="Download Sketch User Flows: auto-generate User Flows and keep your designs in sync with your Reqfire project"/>
 </a>
 
 ## Contents
