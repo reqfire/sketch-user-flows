@@ -1,50 +1,52 @@
 # Sketch User Flows
+<a href="https://github.com/reqfire/sketch-user-flows/archive/master.zip">
+  <img src="./images/Sketch-User-Flows-Logo-Button.svg" alt="Download Sketch User Flows: auto-generate User Flows and keep your designs in sync with your Reqfire project"/>
+</a>
 
-## Overview
+## Contents
+* Overview 
+* Installation 
+* How it works 
+* FAQ 
+* Get in touch
+
+## The quickest way to create User Flows in Sketch
 
 Communicate your designs with User Flows: auto-generate User Flows and keep your designs in sync with your Reqfire project.
 
-Sketch User Flows allows the importing of interfaces from Reqfire into a Sketch project, along with the defined Reqfire user flows.
+**Generate** User Flow maps from your Reqfire project. 
 
-Interfaces can be designed in Sketch and then exported back to Reqfire as .png files to be included in the Reqfire project.
+**Sync** your designs in Sketch with your User Flows as they develop.
 
-Subsequent import operations to the same Sketch project will not overwrite existing work, but will add any newly created interfaces and flows.
+
 
 ## Installing
+You can download our plugin right here:
 
-You can download our plugin from   [sketch-user-flows](https://github.com/reqfire/sketch-user-flows/archive/master.zip)
+<a href="https://github.com/reqfire/sketch-user-flows/archive/master.zip">
+  <img src="./images/download-plugin-button.svg" alt="Download Sketch User Flows: auto-generate User Flows and keep your designs in sync with your Reqfire project"/>
+</a>
 
-Add it to Sketch using the normal process. If this is your first plugin, congratulations, the documentation to better understand how Sketch plugins work is [here](https://www.sketchapp.com/docs/plugins/).
+Is this your first plugin? Here's the docs to better understand [how Sketch plugins work](https://www.sketchapp.com/docs/plugins/). 
 
-## Reqfire -> Sketch (Importing)
+## Generate and Sync User Flows
+<img src="./images/generate-feature.png" alt="Generate a User Flow map in Sketch from a Reqfire project"/>
+<img src="./images/sync-feature.png" alt="Sync Artboard designs in Sketch from a Reqfire project"/>
 
-1. Login / Create a Reqfire account
-   - Ensure you have a project setup with your project’s structure in place.
-2. [Download](https://github.com/reqfire/sketch-user-flows/archive/master.zip) the plugin
-3. Obtain your API Key from the export page
-   - <https://www.reqfire.com/app/export/sketch>
-4. Open Sketch
-   - ‘User Flows by Reqfire’ → ‘Import Reqfire project’
-   - Input the Project Key when prompted
-5. Your Reqfire project will now be in Sketch and the interfaces are now ready to be worked on
+---
 
-## Designing
+## How it works: 
 
-All designs are to be done in the Symbols automatically generated. This will help handle interfaces that are used in multiple ways in your app.
+### Step 1: Create User Flows in Sketch
+<img src="./images/step-one-video.gif" alt="Creating user flows in sketch"/>
 
-The Sketch User Flows page only gives a grand overview of how your app fits into place—assuming you’ve set up your user flows in Reqfire. If you haven’t done this, we highly recommend doing so before using the Sketch plugin.
+### Step 2: Use the plugin to import User Flows to Sketch
+<img src="./images/step-two-video.gif" alt="Import user flows"/>
 
-## Sketch -> Reqfire (Exporting)
+### Step 3: Sync your designs with Reqfire
+<img src="./images/step-three-video.gif" alt="Sync designs with Reqfire"/>
 
-1. When exporting your designs into Reqfire, you have one of two options.
-   - 'Sync all symbols to Reqfire'
-   - 'Sync selected symbols to Reqfire'
-     - Ensure you are selecting the interfaces from the Symbols page and not the User Flows page
-2. ‘User Flows by Reqfire’ → Your desired Exporting option
-3. When prompted, enter the API Secret Key, both of which can be found on the project details page in Reqfire.
-4. Your interface designs will now be made available in your Reqfire project
-   - You can view all the interfaces for your project within your project’s assets
 
-## Feedback, Questions, etc.
+## Get in touch
 
-Please create an issue or email us at [sketchuserflows@reqfire.com](mailto:sketchuserflows@reqfire.com)
+Feel free to create an Issue or PR. Or drop us an email at [hello@reqfire.com](mailto:hello@reqfire.com)
