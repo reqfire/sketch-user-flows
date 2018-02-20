@@ -37,7 +37,7 @@ Is this your first plugin? Here's the docs to better understand [how Sketch plug
 
 ## How it works: 
 
-### Step 1: Create User Flows in Sketch
+### Step 1: Create User Flows in Reqfire
 <img src="./images/step-one-video.gif" alt="Creating user flows in sketch"/>
 
 ### Step 2: Use the plugin to import User Flows to Sketch
