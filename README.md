@@ -1,5 +1,5 @@
 # Sketch User Flows
-<a href="https://github.com/reqfire/sketch-user-flows/archive/master.zip">
+<a href="https://github.com/reqfire/sketch-user-flows/archive/plugin.zip">
   <img src="https://s3-ap-southeast-2.amazonaws.com/reqfire-frontend/assets/images/sketch/Sketch-User-Flows-Logo-Button.png" alt="Download Sketch User Flows: auto-generate User Flows and keep your designs in sync with your Reqfire project"/>
 </a>
 
@@ -23,7 +23,7 @@ Communicate your designs with User Flows: auto-generate User Flows and keep your
 ## Installing
 You can download our plugin right here:
 
-<a href="https://github.com/reqfire/sketch-user-flows/archive/master.zip">
+<a href="https://github.com/reqfire/sketch-user-flows/archive/plugin.zip">
   <img src="https://s3-ap-southeast-2.amazonaws.com/reqfire-frontend/assets/images/sketch/download-plugin-button.svg" alt="Download Sketch User Flows: auto-generate User Flows and keep your designs in sync with your Reqfire project"/>
 </a>
 
