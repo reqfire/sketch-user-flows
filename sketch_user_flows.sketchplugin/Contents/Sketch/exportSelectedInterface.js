@@ -179,16 +179,18 @@ function organiseData(object) {
   return data;
 }
 
-function logRequest(key, message) {
+function logRequest(key, message, isImport) {
   var task = NSTask.alloc().init();
   task.setLaunchPath("/usr/bin/curl");
+
+  var typeNumber = isImport ? 0 : 1;
 
   var args = NSMutableArray.alloc().init();
   args.addObject("-v");
   args.addObject("POST");
   args.addObject("-F");
   args.addObject("message=" + message);
-  args.addObject("https://www.reqfire.com/app/project/sketchevent/type/0/ext/" + key);
+  args.addObject("https://www.reqfire.com/app/project/sketchevent/type/" + typeNumber + "/ext/" + key);
   task.setArguments(args);
 
   var outputPipe = NSPipe.pipe();
@@ -710,13 +712,13 @@ function exportInterfaces(context, exportAllSymbols) {
   var jsonResponse = getJSONFromURL(projectImportURL, apiKey);
   if (!jsonResponse) {
     app.displayDialog_withTitle("Please ensure you are using a valid API key.\nThis can be found within your project at Reqfire > Export > Sync to Sketch.", "Error — No API key was entered");
-    logRequest(apiKey, "Invalid API Key");
+    logRequest(apiKey, "Invalid API Key", false);
     return null;
   }
 
   if (!version.isEqualToString(jsonResponse.version)) {
     app.displayDialog_withTitle("You can download the latest version from https://github.com/reqfire/sketch-user-flows/", "Error — Plugin version is not up to date");
-    logRequest(apiKey, "Plugin out of date");
+    logRequest(apiKey, "Plugin out of date", false);
     log("wrong version");
     return null;
   }
