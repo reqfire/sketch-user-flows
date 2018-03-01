@@ -41,9 +41,13 @@ Is this your first plugin? Here's the docs to better understand [how Sketch plug
 <img src="https://s3-ap-southeast-2.amazonaws.com/reqfire-frontend/assets/images/sketch/step-one-video.gif" alt="Creating user flows in sketch"/>
 
 ### Step 2: Use the plugin to import User Flows to Sketch
+In Sketch: Plugin > Sketch User Flows > Import Reqfire Project
+
 <img src="https://s3-ap-southeast-2.amazonaws.com/reqfire-frontend/assets/images/sketch/step-two-video.gif" alt="Import user flows"/>
 
 ### Step 3: Sync your designs with Reqfire
+In Sketch: Plugin > Sketch User Flows > Sync All/Selected symbols to Reqfire
+
 <img src="https://s3-ap-southeast-2.amazonaws.com/reqfire-frontend/assets/images/sketch/step-three-video.gif" alt="Sync designs with Reqfire"/>
 
 
