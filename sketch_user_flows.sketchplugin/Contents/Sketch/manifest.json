@@ -1,0 +1,35 @@
+{
+  "name": "Sketch User Flows",
+  "version": "1.0.0",
+  "author": "Reqfire",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Import Reqfire project",
+      "identifier": "createIFace-identifier",
+      "handler": "onRun",
+      "script": "importReqfireProject.js"
+    },
+    {
+      "name": "Sync all symbols to Reqfire",
+      "identifier": "exportInterface-identifier",
+      "script": "exportAllInterface.js"
+    },
+    {
+      "name": "Sync selected symbols to Reqfire",
+      "identifier": "exportSelectedInterface-identifier",
+      "script": "exportSelectedInterface.js"
+    }
+  ],
+  "menu": {
+    "title": "Sketch User Flows by Reqfire",
+    "items": [
+      "createIFace-identifier",
+      "exportInterface-identifier",
+      "exportSelectedInterface-identifier"
+    ]
+  },
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}
